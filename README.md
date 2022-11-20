@@ -14,4 +14,3 @@ Para simplificar este proceso y añadir las características adicionales mencion
   - Utiliza el API del docker-engine para comunicar con sol servidores
   - Debería generar automáticamente una API de Python a través de la cual se pueda acceder a, por ejemplo, un base de datos.
   - Para una imagen generada, también debería prepararse automáticamente un script a través del cual se pueda transferir el nuevo estado a, por ejemplo, Dockerhub cuando se realicen cambios. (CI/CD)
-- Si da tiempo , estudiar integraciones de docker en AWS, GCLOud y Azure
