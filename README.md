@@ -1,4 +1,4 @@
-# TFG Aplicación para la gestión de Docker con Framework para la generación automatica de APIs
+# TFG -- Aplicación para la gestión de Docker con Framework para la generación automatica de APIs
 El objetivo es desarrollar una aplicación que facilite a un programador la creación de un entorno para un nuevo proyecto que ya contenga todos los prerrequisitos necesarios para su proyecto y que además incluya un servidor API generado automáticamente a través del cual se pueda acceder a los respectivos componentes.
 Por ejemplo, si el programador sabe desde el principio que su aplicación debe tener una base de datos y necesita un determinado framework para el lenguaje que va a utilizar, debería poder seleccionarlo simplemente a través de una interfaz de usuario y entonces se crearía automáticamente una entorno con estos requisitos.
 La provisión de los distintos servicios se hará a través de Docker, ya que la combinación de imágenes (por ejemplo, distribución Linux + MySQL) hace que sea relativamente sencillo crear un entorno con todas las herramientas necesarias.
