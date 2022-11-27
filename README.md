@@ -9,6 +9,7 @@ Para simplificar este proceso y añadir las características adicionales mencion
   - Ofrece un menú para crear nuevas imágenes y contenedores
   - El usuario sólo debe seleccionar sus funciones deseadas a traves de un formulario y la aplicación crea automáticamente el Dockerfile (docker compose) y los archivos de configuración necesarios para construir el imagen.
 - Aplicación que comunica con los servidores de docker y kubernetes para aplicar los comandos de la aplicación web
+  - Tiene una base de datos (Mongodb) in que se almacena los datos del usuario y informaciones sobre los servidores y imagenes ofrecidos
   - Accesible por un REST-API
   - Por este API también se podría enviar ficheros para crear un imagen incluyendo estos ficheros
   - Utiliza el API del docker-engine para comunicar con sol servidores
