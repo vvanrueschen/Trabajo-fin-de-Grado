@@ -10,7 +10,7 @@ Para simplificar este proceso y añadir las características adicionales mencion
   - El usuario sólo debe seleccionar sus funciones deseadas a traves de un formulario y la aplicación crea automáticamente el Dockerfile (docker compose) y los archivos de configuración necesarios para construir el imagen.
 - Aplicación que comunica con los servidores de docker y kubernetes para aplicar los comandos de la aplicación web
   - Tiene una base de datos (Mongodb) in que se almacena los datos del usuario y informaciones sobre los servidores y imagenes ofrecidos
-  - Accesible por un REST-API
+  - Accesible por un REST-API (restpi3)
   - Por este API también se podría enviar ficheros para crear un imagen incluyendo estos ficheros
   - Utiliza el API del docker-engine para comunicar con sol servidores
   - Debería generar automáticamente una API de Python a través de la cual se pueda acceder a, por ejemplo, un base de datos.
